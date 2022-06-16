@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world version="1.0" width="2" height="2">
+ <BMPToTMX>
+  <tmxexportdir path="../../tmxworld"/>
+  <rulesfile path=""/>
+  <blendsfile path=""/>
+  <mapbasefile path=""/>
+  <assign-maps-to-world checked="true"/>
+  <warn-unknown-colors checked="true"/>
+  <compress checked="true"/>
+  <copy-pixels checked="true"/>
+  <update-existing checked="false"/>
+ </BMPToTMX>
+ <TMXToBMP>
+  <mainImage generate="true"/>
+  <vegetationImage generate="true"/>
+  <buildingsImage path="" generate="false"/>
+ </TMXToBMP>
+ <GenerateLots>
+  <exportdir path="../../output"/>
+  <ZombieSpawnMap path="../smis_zombiespawnmap.bmp"/>
+  <TileDefFolder path="../../../../../Tiles"/>
+  <worldOrigin origin="35,45"/>
+ </GenerateLots>
+ <LuaSettings>
+  <spawnPointsFile path=""/>
+  <worldObjectsFile path="../../output/objects.lua"/>
+ </LuaSettings>
+ <bmp path="../smis.bmp" x="0" y="0" width="2" height="2"/>
+ <bmp path="../smis.bmp" x="0" y="0" width="2" height="2"/>
+ <bmp path="../smis.bmp" x="0" y="0" width="2" height="2"/>
+ <bmp path="../smis.bmp" x="0" y="0" width="2" height="2"/>
+ <bmp path="../smis.png" x="0" y="0" width="2" height="2"/>
+ <bmp path="../smis.png" x="0" y="0" width="2" height="2"/>
+ <bmp path="../smis.png" x="0" y="0" width="2" height="2"/>
+ <bmp path="../smis.png" x="0" y="0" width="2" height="2"/>
+ <bmp path="../smis.png" x="0" y="0" width="2" height="2"/>
+ <bmp path="../smis.png" x="0" y="0" width="2" height="2"/>
+ <bmp path="../smis.png" x="0" y="0" width="2" height="2"/>
+ <bmp path="../smis.png" x="0" y="0" width="2" height="2"/>
+ <propertyenum name="Direction" choices="N,S,W,E" multi="false"/>
+ <propertyenum name="Pose" choices="pose01,pose02,pose03" multi="false"/>
+ <propertyenum name="Skin" choices="White,Black" multi="false"/>
+ <propertyenum name="RoomTone" choices="Generic,Barn,Mall,Warehouse,Prison,Church,Office,Factory" multi="false"/>
+ <propertydef name="Direction" default="N" enum="Direction"/>
+ <propertydef name="FaceDirection" default="true"/>
+ <propertydef name="WaterDirection" default="0.0"/>
+ <propertydef name="WaterSpeed" default="0.0"/>
+ <propertydef name="WaterGround" default="false"/>
+ <propertydef name="WaterShore" default="true"/>
+ <propertydef name="Female" default="true"/>
+ <propertydef name="Pose" default="pose01" enum="Pose"/>
+ <propertydef name="Skin" default="White" enum="Skin"/>
+ <propertydef name="Outfit" default=""/>
+ <propertydef name="Script" default=""/>
+ <propertydef name="RoomTone" default="Generic" enum="RoomTone"/>
+ <propertydef name="EntireBuilding" default="false"/>
+ <template name="ParkingStallN">
+  <property name="Direction" value="N"/>
+ </template>
+ <template name="ParkingStallS">
+  <property name="Direction" value="S"/>
+ </template>
+ <template name="ParkingStallW">
+  <property name="Direction" value="W"/>
+ </template>
+ <template name="ParkingStallE">
+  <property name="Direction" value="E"/>
+ </template>
+ <template name="WaterFlowN">
+  <property name="WaterDirection" value="0"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowS">
+  <property name="WaterDirection" value="180"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowE">
+  <property name="WaterDirection" value="90"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowW">
+  <property name="WaterDirection" value="270"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterZone">
+  <property name="WaterGround" value="false"/>
+  <property name="WaterShore" value="true"/>
+ </template>
+ <template name="RoomTone">
+  <property name="RoomTone" value="Generic"/>
+  <property name="EntireBuilding" value="false"/>
+ </template>
+ <objecttype name="TownZone"/>
+ <objecttype name="Forest"/>
+ <objecttype name="DeepForest"/>
+ <objecttype name="Nav"/>
+ <objecttype name="Vegitation"/>
+ <objecttype name="TrailerPark"/>
+ <objecttype name="Farm"/>
+ <objecttype name="ParkingStall"/>
+ <objecttype name="FarmLand"/>
+ <objecttype name="WaterFlow"/>
+ <objecttype name="WaterZone"/>
+ <objecttype name="Mannequin"/>
+ <objecttype name="RoomTone"/>
+ <objectgroup name="ParkingStall" color="#ff007f" defaulttype="ParkingStall"/>
+ <objectgroup name="TownZone" color="#aa0000" defaulttype="TownZone"/>
+ <objectgroup name="Forest" color="#00aa00" defaulttype="Forest"/>
+ <objectgroup name="Nav" color="#55aaff" defaulttype="Nav"/>
+ <objectgroup name="DeepForest" color="#003500" defaulttype="DeepForest"/>
+ <objectgroup name="Vegitation" color="#b3b300" defaulttype="Vegitation"/>
+ <objectgroup name="TrailerPark" color="#f50000" defaulttype="TrailerPark"/>
+ <objectgroup name="Farm" color="#55ff7f" defaulttype="Farm"/>
+ <objectgroup name="FarmLand" color="#bcff7d" defaulttype="FarmLand"/>
+ <objectgroup name="WaterFlow" color="#0000ff" defaulttype="WaterFlow"/>
+ <objectgroup name="WaterZone" color="#0000ff" defaulttype="WaterZone"/>
+ <objectgroup name="Mannequin" color="#0000ff" defaulttype="Mannequin"/>
+ <objectgroup name="RoomTone" color="#0000ff" defaulttype="RoomTone"/>
+ <cell x="0" y="0" map="../../tmxworld/smis_35_45.tmx">
+  <lot x="268" y="201" level="0" width="21" height="21" map="../../buildings/The Charming Family.tbx"/>
+  <lot x="248" y="239" level="0" width="41" height="41" map="../../buildings/Pet Paradise!.tbx"/>
+  <lot x="268" y="141" level="0" width="21" height="31" map="../../buildings/SimCentral Park.tbx"/>
+  <lot x="114" y="188" level="0" width="21" height="21" map="../../buildings/The Morris Cottage.tbx"/>
+  <lot x="149" y="217" level="0" width="21" height="27" map="../../buildings/The Appleview Farm.tbx"/>
+  <lot x="149" y="188" level="0" width="21" height="21" map="../../buildings/The Burb Family.tbx"/>
+  <lot x="177" y="201" level="0" width="21" height="21" map="../../buildings/The Oak Villa.tbx"/>
+  <lot x="207" y="201" level="0" width="21" height="21" map="../../buildings/The Vanilla Home.tbx"/>
+  <lot x="156" y="158" level="0" width="21" height="21" map="../../buildings/Cunters Market.tbx"/>
+  <lot x="193" y="166" level="0" width="26" height="26" map="../../buildings/The Meadowlark Home.tbx"/>
+  <lot x="192" y="141" level="0" width="21" height="21" map="../../buildings/The Sunflower Home.tbx"/>
+  <lot x="191" y="111" level="0" width="25" height="21" map="../../buildings/The Somerset Home.tbx"/>
+ </cell>
+ <cell x="1" y="0" map="../../tmxworld/smis_36_45.tmx">
+  <lot x="158" y="211" level="0" width="31" height="31" map="../../buildings/2 Sim Lane.tbx"/>
+  <lot x="90" y="192" level="0" width="21" height="21" map="../../buildings/3 Sim Lane.tbx"/>
+  <lot x="93" y="254" level="0" width="21" height="21" map="../../buildings/The Goth Family.tbx"/>
+  <lot x="64" y="254" level="0" width="21" height="21" map="../../buildings/7 Sim Lane.tbx"/>
+  <lot x="65" y="284" level="0" width="21" height="21" map="../../buildings/10 Sim Lane.tbx"/>
+  <lot x="15" y="208" level="0" width="21" height="21" map="../../buildings/6 Sim Lane.tbx"/>
+  <lot x="3" y="141" level="0" width="21" height="21" map="../../buildings/The Kat Family.tbx"/>
+  <lot x="3" y="111" level="0" width="21" height="21" map="../../buildings/The Porte Rouge Villa.tbx"/>
+  <lot x="3" y="85" level="0" width="21" height="21" map="../../buildings/The Walden Estate.tbx"/>
+ </cell>
+ <cell x="0" y="1" map="../../tmxworld/smis_35_46.tmx">
+  <lot x="157" y="38" level="0" width="21" height="21" map="../../../../../Building Pool V 2/Smis/The Hick Family.tbx"/>
+  <lot x="191" y="42" level="0" width="31" height="31" map="../../../../../Building Pool V 2/Smis/The Gothic Quarter.tbx"/>
+  <lot x="223" y="42" level="0" width="31" height="31" map="../../../../../Building Pool V 2/Smis/Lake Barrett.tbx"/>
+  <lot x="206" y="81" level="0" width="31" height="31" map="../../../../../Building Pool V 2/Smis/The Courtyard Villa.tbx"/>
+  <lot x="245" y="81" level="0" width="31" height="31" map="../../../../../Building Pool V 2/Smis/77 Elm Street.tbx"/>
+ </cell>
+ <cell x="1" y="1" map="../../tmxworld/smis_36_46.tmx"/>
+</world>
