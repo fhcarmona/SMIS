@@ -1,0 +1,5 @@
+version=0.5
+title=SMIS
+description=The Sims Map Mod
+tags=
+visibility=private

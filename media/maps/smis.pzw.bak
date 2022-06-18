@@ -130,6 +130,7 @@
   <lot x="193" y="166" level="0" width="26" height="26" map="../../buildings/The Meadowlark Home.tbx"/>
   <lot x="192" y="141" level="0" width="21" height="21" map="../../buildings/The Sunflower Home.tbx"/>
   <lot x="191" y="111" level="0" width="25" height="21" map="../../buildings/The Somerset Home.tbx"/>
+  <lot x="268" y="111" level="0" width="21" height="21" map="../../buildings/The Blackpoint Cottage.tbx"/>
  </cell>
  <cell x="1" y="0" map="../../tmxworld/smis_36_45.tmx">
   <lot x="158" y="211" level="0" width="31" height="31" map="../../buildings/2 Sim Lane.tbx"/>
@@ -143,11 +144,15 @@
   <lot x="3" y="85" level="0" width="21" height="21" map="../../buildings/The Walden Estate.tbx"/>
  </cell>
  <cell x="0" y="1" map="../../tmxworld/smis_35_46.tmx">
-  <lot x="157" y="38" level="0" width="21" height="21" map="../../../../../Building Pool V 2/Smis/The Hick Family.tbx"/>
-  <lot x="191" y="42" level="0" width="31" height="31" map="../../../../../Building Pool V 2/Smis/The Gothic Quarter.tbx"/>
-  <lot x="223" y="42" level="0" width="31" height="31" map="../../../../../Building Pool V 2/Smis/Lake Barrett.tbx"/>
-  <lot x="206" y="81" level="0" width="31" height="31" map="../../../../../Building Pool V 2/Smis/The Courtyard Villa.tbx"/>
-  <lot x="245" y="81" level="0" width="31" height="31" map="../../../../../Building Pool V 2/Smis/77 Elm Street.tbx"/>
+  <lot x="245" y="82" level="0" width="31" height="31" map="../../buildings/77 Elm Street.tbx"/>
+  <lot x="205" y="82" level="0" width="31" height="31" map="../../buildings/The Courtyard Villa.tbx"/>
+  <lot x="219" y="58" level="0" width="29" height="15" map="../../buildings/Lake Barrett.tbx"/>
+  <lot x="191" y="48" level="0" width="28" height="25" map="../../buildings/The Gothic Quarter.tbx"/>
+  <lot x="156" y="38" level="0" width="21" height="21" map="../../buildings/The Hick Family.tbx"/>
+  <lot x="246" y="114" level="0" width="31" height="31" map="../../buildings/The Mango Manor.tbx"/>
+  <lot x="248" y="34" level="0" width="41" height="39" map="../../buildings/McArthur Square.tbx"/>
  </cell>
- <cell x="1" y="1" map="../../tmxworld/smis_36_46.tmx"/>
+ <cell x="1" y="1" map="../../tmxworld/smis_36_46.tmx">
+  <lot x="3" y="70" level="0" width="31" height="31" map="../../buildings/Old Town Quarter.tbx"/>
+ </cell>
 </world>

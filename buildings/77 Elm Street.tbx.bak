@@ -789,6 +789,18 @@
    <tile x="0" y="0" name="appliances_laundry_01_014"/>
   </entry>
  </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="fixtures_railings_01_002"/>
+   <tile x="1" y="0" name="fixtures_railings_01_001"/>
+   <tile x="2" y="0" name="fixtures_railings_01_000"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_railings_01_005"/>
+   <tile x="0" y="1" name="fixtures_railings_01_006"/>
+   <tile x="0" y="2" name="fixtures_railings_01_007"/>
+  </entry>
+ </furniture>
  <furniture corners="true">
   <entry orient="W">
    <tile x="0" y="0" name="fixtures_counters_01_075"/>
@@ -1025,6 +1037,22 @@
  </furniture>
  <furniture>
   <entry orient="W">
+   <tile x="0" y="0" name="fixtures_railings_01_003"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_railings_01_004"/>
+  </entry>
+ </furniture>
+ <furniture layer="RoofCap">
+  <entry orient="W" grime="false">
+   <tile x="0" y="0" name="fixtures_railings_01_036"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_railings_01_037"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
    <tile x="0" y="0" name="furniture_storage_01_037"/>
    <tile x="0" y="1" name="furniture_storage_01_036"/>
   </entry>
@@ -1081,7 +1109,7 @@
  </furniture>
  <user_tiles/>
  <used_tiles>19 34 21 45 32 39 22 43 30 42 31 40 29 38 41 23 24 25 37 28 26 46 27 35 36 17 12 13 15 14 11 16 48 49 51 44 54 1 2 9 10 20 53 5 6 7 8 3 4 47 50 52</used_tiles>
- <used_furniture>15 16 25 26 38 27 18 3 28 29 39 30 4 31 32 40 33 34 35 41 36 21 37 0 1 2 5 6 7 8 9 10 11 12 13 14 17 42 19 20 22 23 24</used_furniture>
+ <used_furniture>15 16 26 27 41 28 18 3 29 30 42 31 4 32 33 43 34 35 36 44 37 21 38 0 1 2 5 6 7 8 9 10 11 12 13 14 17 45 19 20 22 23 24 25 39 40</used_furniture>
  <room Name="F1R1" InternalName="room1" Color="200 200 200" InteriorWall="45" InteriorWallTrim="0" Floor="32" GrimeFloor="0" GrimeWall="0"/>
  <room Name="F1R2" InternalName="room2" Color="128 128 128" InteriorWall="39" InteriorWallTrim="0" Floor="22" GrimeFloor="0" GrimeWall="0"/>
  <room Name="F1R3" InternalName="room3" Color="255 0 0" InteriorWall="43" InteriorWallTrim="0" Floor="30" GrimeFloor="0" GrimeWall="0"/>
@@ -1209,6 +1237,8 @@
   <object type="furniture" FurnitureTiles="22" orient="E" x="27" y="10"/>
   <object type="furniture" FurnitureTiles="23" orient="E" x="27" y="9"/>
   <object type="furniture" FurnitureTiles="24" orient="E" x="27" y="11"/>
+  <object type="furniture" FurnitureTiles="25" orient="N" x="15" y="16"/>
+  <object type="furniture" FurnitureTiles="25" orient="N" x="14" y="16"/>
   <rooms>
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1284,44 +1314,65 @@
   <object type="window" CurtainsTile="0" ShuttersTile="0" x="17" y="14" dir="N" Tile="54"/>
   <object type="furniture" FurnitureTiles="15" orient="N" x="21" y="18"/>
   <object type="furniture" FurnitureTiles="16" orient="E" x="21" y="21"/>
-  <object type="furniture" FurnitureTiles="25" orient="S" x="22" y="24"/>
-  <object type="furniture" FurnitureTiles="25" orient="S" x="23" y="24"/>
-  <object type="furniture" FurnitureTiles="25" orient="S" x="24" y="24"/>
-  <object type="furniture" FurnitureTiles="25" orient="SE" x="25" y="24"/>
-  <object type="furniture" FurnitureTiles="25" orient="E" x="25" y="23"/>
-  <object type="furniture" FurnitureTiles="25" orient="E" x="25" y="22"/>
-  <object type="furniture" FurnitureTiles="25" orient="E" x="25" y="21"/>
+  <object type="furniture" FurnitureTiles="26" orient="S" x="22" y="24"/>
   <object type="furniture" FurnitureTiles="26" orient="S" x="23" y="24"/>
+  <object type="furniture" FurnitureTiles="26" orient="S" x="24" y="24"/>
+  <object type="furniture" FurnitureTiles="26" orient="SE" x="25" y="24"/>
+  <object type="furniture" FurnitureTiles="26" orient="E" x="25" y="23"/>
   <object type="furniture" FurnitureTiles="26" orient="E" x="25" y="22"/>
-  <object type="furniture" FurnitureTiles="27" orient="S" x="21" y="17"/>
+  <object type="furniture" FurnitureTiles="26" orient="E" x="25" y="21"/>
+  <object type="furniture" FurnitureTiles="27" orient="S" x="23" y="24"/>
+  <object type="furniture" FurnitureTiles="27" orient="E" x="25" y="22"/>
+  <object type="furniture" FurnitureTiles="28" orient="S" x="21" y="17"/>
   <object type="furniture" FurnitureTiles="18" orient="W" x="19" y="15"/>
   <object type="furniture" FurnitureTiles="3" orient="W" x="19" y="14"/>
-  <object type="furniture" FurnitureTiles="28" orient="N" x="20" y="10"/>
-  <object type="furniture" FurnitureTiles="29" orient="S" x="21" y="11"/>
-  <object type="furniture" FurnitureTiles="30" orient="E" x="24" y="13"/>
+  <object type="furniture" FurnitureTiles="29" orient="N" x="20" y="10"/>
+  <object type="furniture" FurnitureTiles="30" orient="S" x="21" y="11"/>
+  <object type="furniture" FurnitureTiles="31" orient="E" x="24" y="13"/>
   <object type="furniture" FurnitureTiles="4" orient="E" x="25" y="16"/>
   <object type="furniture" FurnitureTiles="4" orient="E" x="25" y="11"/>
-  <object type="furniture" FurnitureTiles="31" orient="SE" x="9" y="18"/>
-  <object type="furniture" FurnitureTiles="31" orient="S" x="8" y="18"/>
-  <object type="furniture" FurnitureTiles="31" orient="E" x="9" y="17"/>
-  <object type="furniture" FurnitureTiles="31" orient="E" x="9" y="16"/>
-  <object type="furniture" FurnitureTiles="32" orient="N" x="4" y="17"/>
+  <object type="furniture" FurnitureTiles="32" orient="SE" x="9" y="18"/>
+  <object type="furniture" FurnitureTiles="32" orient="S" x="8" y="18"/>
+  <object type="furniture" FurnitureTiles="32" orient="E" x="9" y="17"/>
+  <object type="furniture" FurnitureTiles="32" orient="E" x="9" y="16"/>
+  <object type="furniture" FurnitureTiles="33" orient="N" x="4" y="17"/>
   <object type="wall" length="3" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="10" y="20" dir="W" Tile="20"/>
   <object type="wall" length="5" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="13" y="15" dir="N" Tile="20"/>
   <object type="wall" length="3" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="13" y="15" dir="W" Tile="20"/>
   <object type="wall" length="5" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="16" y="15" dir="N" Tile="20"/>
   <object type="wall" length="3" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="16" y="20" dir="W" Tile="20"/>
-  <object type="furniture" FurnitureTiles="33" orient="E" x="5" y="11"/>
-  <object type="furniture" FurnitureTiles="34" orient="W" x="3" y="12"/>
-  <object type="furniture" FurnitureTiles="35" orient="S" x="9" y="24"/>
-  <object type="furniture" FurnitureTiles="35" orient="S" x="3" y="24"/>
+  <object type="furniture" FurnitureTiles="34" orient="E" x="5" y="11"/>
+  <object type="furniture" FurnitureTiles="35" orient="W" x="3" y="12"/>
+  <object type="furniture" FurnitureTiles="36" orient="S" x="9" y="24"/>
+  <object type="furniture" FurnitureTiles="36" orient="S" x="3" y="24"/>
   <object type="furniture" FurnitureTiles="18" orient="S" x="4" y="24"/>
   <object type="furniture" FurnitureTiles="18" orient="S" x="5" y="24"/>
   <object type="furniture" FurnitureTiles="18" orient="S" x="7" y="24"/>
   <object type="furniture" FurnitureTiles="18" orient="S" x="8" y="24"/>
-  <object type="furniture" FurnitureTiles="36" orient="E" x="9" y="21"/>
+  <object type="furniture" FurnitureTiles="37" orient="E" x="9" y="21"/>
   <object type="furniture" FurnitureTiles="21" orient="N" x="3" y="19"/>
-  <object type="furniture" FurnitureTiles="37" orient="N" x="5" y="21"/>
+  <object type="furniture" FurnitureTiles="38" orient="N" x="5" y="21"/>
+  <object type="furniture" FurnitureTiles="39" orient="N" x="14" y="16"/>
+  <object type="furniture" FurnitureTiles="39" orient="N" x="15" y="16"/>
+  <object type="furniture" FurnitureTiles="40" orient="N" x="10" y="20"/>
+  <object type="furniture" FurnitureTiles="40" orient="N" x="11" y="20"/>
+  <object type="furniture" FurnitureTiles="40" orient="N" x="12" y="20"/>
+  <object type="furniture" FurnitureTiles="40" orient="W" x="13" y="19"/>
+  <object type="furniture" FurnitureTiles="40" orient="W" x="13" y="18"/>
+  <object type="furniture" FurnitureTiles="40" orient="W" x="13" y="17"/>
+  <object type="furniture" FurnitureTiles="40" orient="W" x="13" y="16"/>
+  <object type="furniture" FurnitureTiles="40" orient="W" x="13" y="15"/>
+  <object type="furniture" FurnitureTiles="40" orient="W" x="16" y="19"/>
+  <object type="furniture" FurnitureTiles="40" orient="W" x="16" y="18"/>
+  <object type="furniture" FurnitureTiles="40" orient="W" x="16" y="17"/>
+  <object type="furniture" FurnitureTiles="40" orient="W" x="16" y="16"/>
+  <object type="furniture" FurnitureTiles="40" orient="W" x="16" y="15"/>
+  <object type="furniture" FurnitureTiles="40" orient="N" x="16" y="20"/>
+  <object type="furniture" FurnitureTiles="40" orient="N" x="17" y="20"/>
+  <object type="furniture" FurnitureTiles="40" orient="N" x="18" y="20"/>
+  <object type="furniture" FurnitureTiles="40" orient="N" x="13" y="15"/>
+  <object type="furniture" FurnitureTiles="40" orient="N" x="14" y="15"/>
+  <object type="furniture" FurnitureTiles="40" orient="N" x="15" y="15"/>
   <rooms>
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
