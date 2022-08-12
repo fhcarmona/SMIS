@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<building version="2" width="20" height="20" ExteriorWall="10" ExteriorWallTrim="9" Door="7" DoorFrame="6" Window="35" Curtains="0" Shutters="0" Stairs="34" RoofCap="22" RoofSlope="27" RoofTop="33" GrimeWall="18">
+<building version="3" width="21" height="32" ExteriorWall="10" ExteriorWallTrim="9" Door="7" DoorFrame="6" Window="36" Curtains="0" Shutters="0" Stairs="35" RoofCap="22" RoofSlope="27" RoofTop="30" GrimeWall="18">
  <tile_entry category="curtains">
   <tile enum="West" tile="fixtures_windows_curtains_01_000"/>
   <tile enum="East" tile="fixtures_windows_curtains_01_001"/>
@@ -462,6 +462,14 @@
   <tile enum="CornerNE3" tile="roofs_04_059"/>
  </tile_entry>
  <tile_entry category="roof_tops">
+  <tile enum="West1" tile="floors_exterior_street_01_016" offset="-1,-1"/>
+  <tile enum="West2" tile="floors_exterior_street_01_016" offset="-2,-2"/>
+  <tile enum="West3" tile="floors_exterior_street_01_016"/>
+  <tile enum="North1" tile="floors_exterior_street_01_016" offset="-1,-1"/>
+  <tile enum="North2" tile="floors_exterior_street_01_016" offset="-2,-2"/>
+  <tile enum="North3" tile="floors_exterior_street_01_016"/>
+ </tile_entry>
+ <tile_entry category="roof_tops">
   <tile enum="West1" tile="roofs_02_022" offset="-1,-1"/>
   <tile enum="West2" tile="roofs_02_022" offset="-2,-2"/>
   <tile enum="West3" tile="roofs_02_022"/>
@@ -505,122 +513,322 @@
   <tile enum="West" tile="fixtures_windows_01_032"/>
   <tile enum="North" tile="fixtures_windows_01_033"/>
  </tile_entry>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="f_flowerbed_1_001"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="f_flowerbed_1_000"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="vegetation_foliage_01_000"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="vegetation_foliage_01_005"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="vegetation_foliage_01_001"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="vegetation_foliage_01_003"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="fencing_01_000"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fencing_01_001"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="fencing_01_002"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="fencing_01_003"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="fixtures_fireplaces_01_034"/>
+   <tile x="0" y="1" name="fixtures_fireplaces_01_033"/>
+   <tile x="0" y="2" name="fixtures_fireplaces_01_032"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_fireplaces_01_019"/>
+   <tile x="1" y="0" name="fixtures_fireplaces_01_020"/>
+   <tile x="2" y="0" name="fixtures_fireplaces_01_021"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="fixtures_fireplaces_01_005"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="fixtures_fireplaces_01_000"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="vegetation_trees_01_008"/>
+  </entry>
+ </furniture>
+ <furniture corners="true">
+  <entry orient="W">
+   <tile x="0" y="0" name="walls_interior_detailing_01_004"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="walls_interior_detailing_01_005"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="walls_interior_detailing_01_014"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="walls_interior_detailing_01_015"/>
+  </entry>
+  <entry orient="NW">
+   <tile x="0" y="0" name="walls_interior_detailing_01_006"/>
+  </entry>
+  <entry orient="SE">
+   <tile x="0" y="0" name="walls_interior_detailing_01_007"/>
+  </entry>
+ </furniture>
  <user_tiles/>
- <used_tiles>10 20 15 19 16 21 14 13 17 11 22 28 33 12 8 5 7 6 35 3 4 1 2 31 32 30 27 25 23 24 29 26</used_tiles>
- <used_furniture></used_furniture>
+ <used_tiles>10 20 15 19 16 21 14 13 17 11 22 28 34 12 8 5 7 6 36 3 4 1 2 32 33 31 27 25 23 24 29 26 30</used_tiles>
+ <used_furniture>1 0 2 3 7 4 5 6</used_furniture>
  <room Name="F1_R1" InternalName="room1" Color="200 200 200" InteriorWall="20" InteriorWallTrim="0" Floor="15" GrimeFloor="0" GrimeWall="0"/>
  <room Name="F1_R2" InternalName="room2" Color="128 128 128" InteriorWall="19" InteriorWallTrim="0" Floor="16" GrimeFloor="0" GrimeWall="0"/>
  <room Name="F1_R3" InternalName="room3" Color="255 0 0" InteriorWall="21" InteriorWallTrim="0" Floor="14" GrimeFloor="0" GrimeWall="0"/>
  <room Name="F1_R4" InternalName="room4" Color="0 255 0" InteriorWall="20" InteriorWallTrim="0" Floor="13" GrimeFloor="0" GrimeWall="0"/>
  <room Name="F1_R5" InternalName="room5" Color="0 0 255" InteriorWall="20" InteriorWallTrim="0" Floor="17" GrimeFloor="0" GrimeWall="0"/>
  <floor>
-  <object type="wall" length="5" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="8" y="8" dir="N" Tile="11"/>
-  <object type="wall" length="4" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="9" y="15" dir="W" Tile="12"/>
-  <object type="wall" length="1" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="13" y="14" dir="N" Tile="12"/>
-  <object type="wall" length="1" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="13" y="14" dir="W" Tile="12"/>
-  <object type="wall" length="1" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="14" y="13" dir="N" Tile="12"/>
-  <object type="wall" length="5" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="14" y="13" dir="W" Tile="12"/>
-  <object type="wall" length="5" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="19" y="8" dir="N" Tile="12"/>
-  <object type="wall" length="4" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="14" y="3" dir="N" Tile="12"/>
-  <object type="wall" length="5" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="3" y="13" dir="W" Tile="12"/>
-  <object type="wall" length="1" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="8" y="14" dir="W" Tile="12"/>
-  <object type="door" FrameTile="5" x="6" y="13" dir="N" Tile="8"/>
-  <object type="door" FrameTile="5" x="10" y="3" dir="N" Tile="8"/>
-  <object type="door" FrameTile="6" x="14" y="11" dir="W" Tile="7"/>
-  <object type="door" FrameTile="6" x="15" y="9" dir="W" Tile="7"/>
-  <object type="wall" length="1" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="15" y="7" dir="N" Tile="12"/>
-  <object type="door" FrameTile="6" x="12" y="10" dir="N" Tile="7"/>
-  <object type="door" FrameTile="6" x="9" y="8" dir="N" Tile="7"/>
-  <object type="door" FrameTile="6" x="11" y="6" dir="W" Tile="7"/>
-  <object type="window" CurtainsTile="3" ShuttersTile="0" x="15" y="13" dir="N" Tile="35"/>
-  <object type="window" CurtainsTile="3" ShuttersTile="0" x="19" y="11" dir="W" Tile="35"/>
-  <object type="window" CurtainsTile="4" ShuttersTile="0" x="17" y="13" dir="N" Tile="35"/>
-  <object type="window" CurtainsTile="4" ShuttersTile="0" x="19" y="9" dir="W" Tile="35"/>
-  <object type="window" CurtainsTile="2" ShuttersTile="0" x="9" y="3" dir="N" Tile="35"/>
-  <object type="window" CurtainsTile="2" ShuttersTile="0" x="12" y="3" dir="N" Tile="35"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="8" y="4" dir="W" Tile="35"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="8" y="6" dir="W" Tile="35"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="4" y="8" dir="N" Tile="35"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="6" y="8" dir="N" Tile="35"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="3" y="9" dir="W" Tile="35"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="3" y="11" dir="W" Tile="35"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="4" y="13" dir="N" Tile="35"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="10" y="15" dir="N" Tile="35"/>
-  <object type="window" CurtainsTile="0" ShuttersTile="0" x="11" y="15" dir="N" Tile="35"/>
+  <object type="wall" length="5" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="8" y="14" dir="N" Tile="11"/>
+  <object type="wall" length="4" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="9" y="21" dir="W" Tile="12"/>
+  <object type="wall" length="1" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="13" y="20" dir="N" Tile="12"/>
+  <object type="wall" length="1" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="13" y="20" dir="W" Tile="12"/>
+  <object type="wall" length="1" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="14" y="19" dir="N" Tile="12"/>
+  <object type="wall" length="5" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="14" y="19" dir="W" Tile="12"/>
+  <object type="wall" length="5" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="19" y="14" dir="N" Tile="12"/>
+  <object type="wall" length="4" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="14" y="9" dir="N" Tile="12"/>
+  <object type="wall" length="5" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="3" y="19" dir="W" Tile="12"/>
+  <object type="wall" length="1" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="8" y="20" dir="W" Tile="12"/>
+  <object type="door" FrameTile="5" x="6" y="19" dir="N" Tile="8"/>
+  <object type="door" FrameTile="5" x="10" y="9" dir="N" Tile="8"/>
+  <object type="door" FrameTile="6" x="14" y="17" dir="W" Tile="7"/>
+  <object type="door" FrameTile="6" x="15" y="15" dir="W" Tile="7"/>
+  <object type="wall" length="1" InteriorTile="0" ExteriorTrim="0" InteriorTrim="0" x="15" y="13" dir="N" Tile="12"/>
+  <object type="door" FrameTile="6" x="12" y="16" dir="N" Tile="7"/>
+  <object type="door" FrameTile="6" x="9" y="14" dir="N" Tile="7"/>
+  <object type="door" FrameTile="6" x="11" y="12" dir="W" Tile="7"/>
+  <object type="window" CurtainsTile="3" ShuttersTile="0" x="15" y="19" dir="N" Tile="36"/>
+  <object type="window" CurtainsTile="3" ShuttersTile="0" x="19" y="17" dir="W" Tile="36"/>
+  <object type="window" CurtainsTile="4" ShuttersTile="0" x="17" y="19" dir="N" Tile="36"/>
+  <object type="window" CurtainsTile="4" ShuttersTile="0" x="19" y="15" dir="W" Tile="36"/>
+  <object type="window" CurtainsTile="2" ShuttersTile="0" x="9" y="9" dir="N" Tile="36"/>
+  <object type="window" CurtainsTile="2" ShuttersTile="0" x="12" y="9" dir="N" Tile="36"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="8" y="10" dir="W" Tile="36"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="8" y="12" dir="W" Tile="36"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="4" y="14" dir="N" Tile="36"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="6" y="14" dir="N" Tile="36"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="3" y="15" dir="W" Tile="36"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="3" y="17" dir="W" Tile="36"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="4" y="19" dir="N" Tile="36"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="10" y="21" dir="N" Tile="36"/>
+  <object type="window" CurtainsTile="0" ShuttersTile="0" x="11" y="21" dir="N" Tile="36"/>
+  <object type="roof" width="1" height="8" RoofType="FlatTop" Depth="Zero" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="22" SlopeTiles="27" TopTiles="30" x="6" y="19"/>
+  <object type="roof" width="2" height="1" RoofType="FlatTop" Depth="Zero" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="22" SlopeTiles="27" TopTiles="30" x="7" y="26"/>
+  <object type="roof" width="6" height="5" RoofType="FlatTop" Depth="Zero" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="22" SlopeTiles="27" TopTiles="30" x="9" y="26"/>
+  <object type="roof" width="3" height="1" RoofType="FlatTop" Depth="Zero" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="22" SlopeTiles="27" TopTiles="30" x="9" y="8"/>
+  <object type="roof" width="1" height="8" RoofType="FlatTop" Depth="Zero" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="22" SlopeTiles="27" TopTiles="30" x="10" y="0"/>
+  <object type="furniture" FurnitureTiles="0" orient="N" x="4" y="19"/>
+  <object type="furniture" FurnitureTiles="0" orient="W" x="2" y="19"/>
+  <object type="furniture" FurnitureTiles="0" orient="E" x="2" y="17"/>
+  <object type="furniture" FurnitureTiles="0" orient="E" x="2" y="15"/>
+  <object type="furniture" FurnitureTiles="0" orient="S" x="4" y="13"/>
+  <object type="furniture" FurnitureTiles="0" orient="S" x="6" y="13"/>
+  <object type="furniture" FurnitureTiles="0" orient="E" x="7" y="12"/>
+  <object type="furniture" FurnitureTiles="0" orient="E" x="7" y="10"/>
+  <object type="furniture" FurnitureTiles="1" orient="N" x="3" y="19"/>
+  <object type="furniture" FurnitureTiles="1" orient="E" x="2" y="18"/>
+  <object type="furniture" FurnitureTiles="1" orient="E" x="2" y="16"/>
+  <object type="furniture" FurnitureTiles="1" orient="E" x="2" y="14"/>
+  <object type="furniture" FurnitureTiles="1" orient="S" x="3" y="13"/>
+  <object type="furniture" FurnitureTiles="1" orient="S" x="5" y="13"/>
+  <object type="furniture" FurnitureTiles="1" orient="S" x="7" y="13"/>
+  <object type="furniture" FurnitureTiles="1" orient="E" x="7" y="11"/>
+  <object type="furniture" FurnitureTiles="1" orient="E" x="7" y="9"/>
+  <object type="furniture" FurnitureTiles="1" orient="N" x="7" y="19"/>
+  <object type="furniture" FurnitureTiles="1" orient="N" x="9" y="21"/>
+  <object type="furniture" FurnitureTiles="1" orient="N" x="11" y="21"/>
+  <object type="furniture" FurnitureTiles="1" orient="W" x="13" y="21"/>
+  <object type="furniture" FurnitureTiles="1" orient="W" x="14" y="20"/>
+  <object type="furniture" FurnitureTiles="1" orient="N" x="15" y="19"/>
+  <object type="furniture" FurnitureTiles="1" orient="N" x="17" y="19"/>
+  <object type="furniture" FurnitureTiles="1" orient="W" x="19" y="17"/>
+  <object type="furniture" FurnitureTiles="1" orient="W" x="19" y="15"/>
+  <object type="furniture" FurnitureTiles="1" orient="S" x="17" y="13"/>
+  <object type="furniture" FurnitureTiles="1" orient="S" x="15" y="13"/>
+  <object type="furniture" FurnitureTiles="1" orient="S" x="14" y="12"/>
+  <object type="furniture" FurnitureTiles="1" orient="W" x="14" y="10"/>
+  <object type="furniture" FurnitureTiles="0" orient="W" x="14" y="9"/>
+  <object type="furniture" FurnitureTiles="0" orient="W" x="14" y="11"/>
+  <object type="furniture" FurnitureTiles="0" orient="S" x="16" y="13"/>
+  <object type="furniture" FurnitureTiles="0" orient="S" x="18" y="13"/>
+  <object type="furniture" FurnitureTiles="0" orient="W" x="19" y="14"/>
+  <object type="furniture" FurnitureTiles="0" orient="W" x="19" y="16"/>
+  <object type="furniture" FurnitureTiles="0" orient="W" x="19" y="18"/>
+  <object type="furniture" FurnitureTiles="0" orient="N" x="18" y="19"/>
+  <object type="furniture" FurnitureTiles="0" orient="N" x="16" y="19"/>
+  <object type="furniture" FurnitureTiles="0" orient="N" x="14" y="19"/>
+  <object type="furniture" FurnitureTiles="0" orient="W" x="14" y="21"/>
+  <object type="furniture" FurnitureTiles="0" orient="N" x="12" y="21"/>
+  <object type="furniture" FurnitureTiles="0" orient="N" x="10" y="21"/>
+  <object type="furniture" FurnitureTiles="0" orient="W" x="8" y="21"/>
+  <object type="furniture" FurnitureTiles="0" orient="W" x="7" y="20"/>
+  <object type="furniture" FurnitureTiles="2" orient="N" x="7" y="21"/>
+  <object type="furniture" FurnitureTiles="2" orient="E" x="7" y="25"/>
+  <object type="furniture" FurnitureTiles="2" orient="N" x="7" y="28"/>
+  <object type="furniture" FurnitureTiles="2" orient="N" x="15" y="28"/>
+  <object type="furniture" FurnitureTiles="2" orient="N" x="19" y="19"/>
+  <object type="furniture" FurnitureTiles="2" orient="N" x="19" y="13"/>
+  <object type="furniture" FurnitureTiles="2" orient="N" x="14" y="8"/>
+  <object type="furniture" FurnitureTiles="2" orient="N" x="7" y="8"/>
+  <object type="furniture" FurnitureTiles="2" orient="N" x="2" y="13"/>
+  <object type="furniture" FurnitureTiles="2" orient="S" x="12" y="8"/>
+  <object type="furniture" FurnitureTiles="2" orient="S" x="8" y="8"/>
+  <object type="furniture" FurnitureTiles="0" orient="S" x="13" y="8"/>
+  <object type="furniture" FurnitureTiles="0" orient="N" x="13" y="20"/>
+  <object type="furniture" FurnitureTiles="1" orient="E" x="8" y="20"/>
+  <object type="furniture" FurnitureTiles="3" orient="E" x="9" y="29"/>
+  <object type="furniture" FurnitureTiles="3" orient="E" x="9" y="30"/>
+  <object type="furniture" FurnitureTiles="3" orient="N" x="9" y="31"/>
+  <object type="furniture" FurnitureTiles="3" orient="N" x="10" y="31"/>
+  <object type="furniture" FurnitureTiles="3" orient="N" x="11" y="31"/>
+  <object type="furniture" FurnitureTiles="3" orient="N" x="12" y="31"/>
+  <object type="furniture" FurnitureTiles="3" orient="N" x="13" y="31"/>
+  <object type="furniture" FurnitureTiles="3" orient="N" x="14" y="31"/>
+  <object type="furniture" FurnitureTiles="3" orient="E" x="15" y="30"/>
+  <object type="furniture" FurnitureTiles="3" orient="E" x="15" y="29"/>
+  <object type="furniture" FurnitureTiles="3" orient="W" x="15" y="31"/>
+  <object type="furniture" FurnitureTiles="3" orient="W" x="9" y="31"/>
+  <object type="furniture" FurnitureTiles="4" orient="N" x="16" y="14"/>
+  <object type="furniture" FurnitureTiles="5" orient="N" x="17" y="14"/>
+  <object type="furniture" FurnitureTiles="6" orient="N" x="0" y="26"/>
+  <object type="furniture" FurnitureTiles="6" orient="N" x="17" y="10"/>
+  <object type="furniture" FurnitureTiles="6" orient="N" x="20" y="27"/>
   <rooms>
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,1,1,1,2,2,2,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,1,1,1,2,2,2,2,0,0,0,0,0,
-0,0,0,5,5,5,5,5,4,4,4,2,2,2,2,3,3,3,3,0,
-0,0,0,5,5,5,5,5,4,4,4,4,2,2,2,3,3,3,3,0,
-0,0,0,5,5,5,5,5,4,4,4,4,4,4,3,3,3,3,3,0,
-0,0,0,5,5,5,5,5,4,4,4,4,4,4,3,3,3,3,3,0,
-0,0,0,5,5,5,5,5,4,4,4,4,4,4,3,3,3,3,3,0,
-0,0,0,0,0,0,0,0,4,4,4,4,4,4,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,4,4,4,4,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,1,1,1,2,2,2,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,1,1,1,2,2,2,2,0,0,0,0,0,0,
+0,0,0,5,5,5,5,5,4,4,4,2,2,2,2,3,3,3,3,0,0,
+0,0,0,5,5,5,5,5,4,4,4,4,2,2,2,3,3,3,3,0,0,
+0,0,0,5,5,5,5,5,4,4,4,4,4,4,3,3,3,3,3,0,0,
+0,0,0,5,5,5,5,5,4,4,4,4,4,4,3,3,3,3,3,0,0,
+0,0,0,5,5,5,5,5,4,4,4,4,4,4,3,3,3,3,3,0,0,
+0,0,0,0,0,0,0,0,4,4,4,4,4,4,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,4,4,4,4,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </rooms>
  </floor>
  <floor>
-  <object type="roof" width="6" height="11" RoofType="PeakNS" Depth="Three" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="22" SlopeTiles="27" TopTiles="33" x="8" y="3"/>
-  <object type="roof" width="4" height="1" RoofType="PeakNS" Depth="Two" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="22" SlopeTiles="27" TopTiles="33" x="9" y="14"/>
-  <object type="roof" width="8" height="5" RoofType="DormerE" Depth="TwoPoint5" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="22" SlopeTiles="27" TopTiles="33" x="11" y="8"/>
-  <object type="roof" width="11" height="5" RoofType="DormerW" Depth="TwoPoint5" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="22" SlopeTiles="27" TopTiles="33" x="3" y="8"/>
-  <object type="roof" width="1" height="1" RoofType="SlopeE" Depth="One" cappedW="false" cappedN="true" cappedE="true" cappedS="true" CapTiles="22" SlopeTiles="27" TopTiles="33" x="14" y="7"/>
+  <object type="roof" width="6" height="11" RoofType="PeakNS" Depth="Three" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="22" SlopeTiles="27" TopTiles="34" x="8" y="9"/>
+  <object type="roof" width="4" height="1" RoofType="PeakNS" Depth="Two" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="22" SlopeTiles="27" TopTiles="34" x="9" y="20"/>
+  <object type="roof" width="8" height="5" RoofType="DormerE" Depth="TwoPoint5" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="22" SlopeTiles="27" TopTiles="34" x="11" y="14"/>
+  <object type="roof" width="11" height="5" RoofType="DormerW" Depth="TwoPoint5" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="22" SlopeTiles="27" TopTiles="34" x="3" y="14"/>
+  <object type="roof" width="1" height="2" RoofType="PeakNS" Depth="Point5" cappedW="true" cappedN="true" cappedE="true" cappedS="true" CapTiles="22" SlopeTiles="27" TopTiles="34" x="14" y="13"/>
   <rooms>
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </rooms>
  </floor>
  <floor>
   <rooms>
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </rooms>
  </floor>
 </building>

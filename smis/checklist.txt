@@ -1,0 +1,30 @@
+OK - 2 Sim Lane
+OK - 3 Sim Lane
+OK - 5 Sim Lane - The Goth Family
+OK - 6 Sim Lane
+OK - 7 Sim Lane
+OK - 10 Sim Lane
+OK - 53 Ingleside Drive - The Blackpoint Cottage
+OK - 54 Ridge Road - The Walden Estate
+OK - 55 Ingleside Drive - The Porte Rouge Villa
+OK - 56 Ingleside Drive - The Kat Family
+OK - 57 Ingleside Drive - The Somerset Home
+OK - 58 Ingleside Drive - SimCentral Park
+OK - 59 Ingleside Drive - The Sunflower Home
+NOK - 60 Happy Trail - The Meadowlark Home
+NOK - 61 Happy Trail - Custer's Market
+NOK - 62 Old Farm Circle - The Oak Villa
+NOK - 63 Gunther Goth Highway - The Burb Family
+NOK - 64 Gunther Goth Highway - The Morris Cottage
+NOK - 66 Gunther Goth Highway - The Appleview Farm
+NOK - 68 First Avenue - The Vanilla Home
+NOK - 69 First Avenue - The Charming Family
+NOK - 70 Elm Street - Pet Paradise
+NOK - 71 Elm Street - Old Town Quarter
+NOK - 72 Elm Street - A Sidewalk Walk-About
+NOK - 73 Elm Street - McArthur Square
+NOK - 74 Maple Street - Lake Barrett
+NOK - 75 Maple Street - The Gothic Quarter
+NOK - 76 Gunther Goth Highway - The Hick Family
+NOK - 77 Maple Street - The Goth Sr Family
+NOK - 78 Maple Street - The Courtyard Villa
