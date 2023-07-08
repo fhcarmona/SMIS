@@ -118,26 +118,26 @@
  <objectgroup name="Mannequin" color="#0000ff" defaulttype="Mannequin"/>
  <objectgroup name="RoomTone" color="#0000ff" defaulttype="RoomTone"/>
  <cell x="0" y="0" map="../../tmxworld/smis_35_45.tmx">
-  <lot x="268" y="201" level="0" width="21" height="21" map="../../buildings/The Charming Family.tbx"/>
-  <lot x="248" y="239" level="0" width="41" height="41" map="../../buildings/Pet Paradise!.tbx"/>
+  <lot x="260" y="201" level="0" width="29" height="28" map="../../buildings/The Charming Family.tbx"/>
+  <lot x="247" y="239" level="0" width="42" height="49" map="../../buildings/Pet Paradise!.tbx"/>
   <lot x="250" y="141" level="0" width="39" height="39" map="../../buildings/SimCentral Park.tbx"/>
-  <lot x="114" y="188" level="0" width="21" height="21" map="../../buildings/The Morris Cottage.tbx"/>
-  <lot x="149" y="217" level="0" width="21" height="27" map="../../buildings/The Appleview Farm.tbx"/>
-  <lot x="149" y="188" level="0" width="21" height="21" map="../../buildings/The Burb Family.tbx"/>
-  <lot x="177" y="201" level="0" width="21" height="21" map="../../buildings/The Oak Villa.tbx"/>
-  <lot x="207" y="201" level="0" width="21" height="21" map="../../buildings/The Vanilla Home.tbx"/>
-  <lot x="156" y="158" level="0" width="21" height="21" map="../../buildings/Cunters Market.tbx"/>
-  <lot x="189" y="166" level="0" width="26" height="26" map="../../buildings/The Meadowlark Home.tbx"/>
-  <lot x="189" y="141" level="0" width="21" height="21" map="../../buildings/The Sunflower Home.tbx"/>
+  <lot x="111" y="187" level="0" width="24" height="29" map="../../buildings/The Morris Cottage.tbx"/>
+  <lot x="149" y="218" level="0" width="28" height="30" map="../../buildings/The Appleview Farm.tbx"/>
+  <lot x="149" y="188" level="0" width="31" height="30" map="../../buildings/The Burb Family.tbx"/>
+  <lot x="172" y="201" level="0" width="26" height="26" map="../../buildings/The Oak Villa.tbx"/>
+  <lot x="207" y="201" level="0" width="30" height="29" map="../../buildings/The Vanilla Home.tbx"/>
+  <lot x="186" y="170" level="0" width="24" height="22" map="../../buildings/The Meadowlark Home.tbx"/>
+  <lot x="186" y="141" level="0" width="31" height="26" map="../../buildings/The Sunflower Home.tbx"/>
   <lot x="186" y="102" level="0" width="30" height="30" map="../../buildings/The Somerset Home.tbx"/>
   <lot x="262" y="104" level="0" width="27" height="28" map="../../buildings/The Blackpoint Cottage.tbx"/>
+  <lot x="153" y="151" level="0" width="24" height="28" map="../../buildings/Custers Market.tbx"/>
  </cell>
  <cell x="1" y="0" map="../../tmxworld/smis_36_45.tmx">
   <lot x="158" y="211" level="0" width="41" height="36" map="../../buildings/2 Sim Lane.tbx"/>
   <lot x="86" y="192" level="0" width="26" height="26" map="../../buildings/3 Sim Lane.tbx"/>
-  <lot x="93" y="254" level="0" width="21" height="21" map="../../buildings/The Goth Family.tbx"/>
-  <lot x="64" y="254" level="0" width="21" height="21" map="../../buildings/7 Sim Lane.tbx"/>
-  <lot x="65" y="284" level="0" width="22" height="33" map="../../buildings/10 Sim Lane.tbx"/>
+  <lot x="91" y="234" level="0" width="21" height="21" map="../../buildings/The Goth Family.tbx"/>
+  <lot x="64" y="234" level="0" width="21" height="21" map="../../buildings/7 Sim Lane.tbx"/>
+  <lot x="57" y="267" level="0" width="22" height="33" map="../../buildings/10 Sim Lane.tbx"/>
   <lot x="17" y="201" level="0" width="22" height="28" map="../../buildings/6 Sim Lane.tbx"/>
   <lot x="3" y="141" level="0" width="29" height="30" map="../../buildings/The Kat Family.tbx"/>
   <lot x="3" y="100" level="0" width="31" height="32" map="../../buildings/The Porte Rouge Villa.tbx"/>
@@ -146,13 +146,13 @@
  <cell x="0" y="1" map="../../tmxworld/smis_35_46.tmx">
   <lot x="245" y="82" level="0" width="31" height="31" map="../../buildings/77 Elm Street.tbx"/>
   <lot x="205" y="82" level="0" width="31" height="31" map="../../buildings/The Courtyard Villa.tbx"/>
-  <lot x="219" y="58" level="0" width="29" height="15" map="../../buildings/Lake Barrett.tbx"/>
+  <lot x="211" y="44" level="0" width="29" height="15" map="../../buildings/Lake Barrett.tbx"/>
   <lot x="191" y="48" level="0" width="28" height="25" map="../../buildings/The Gothic Quarter.tbx"/>
   <lot x="156" y="38" level="0" width="21" height="21" map="../../buildings/The Hick Family.tbx"/>
   <lot x="246" y="114" level="0" width="31" height="31" map="../../buildings/The Mango Manor.tbx"/>
-  <lot x="248" y="34" level="0" width="41" height="39" map="../../buildings/McArthur Square.tbx"/>
+  <lot x="244" y="30" level="0" width="45" height="43" map="../../buildings/McArthur Square.tbx"/>
  </cell>
  <cell x="1" y="1" map="../../tmxworld/smis_36_46.tmx">
-  <lot x="3" y="70" level="0" width="31" height="31" map="../../buildings/Old Town Quarter.tbx"/>
+  <lot x="3" y="70" level="0" width="31" height="30" map="../../buildings/Old Town Quarter.tbx"/>
  </cell>
 </world>

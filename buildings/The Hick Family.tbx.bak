@@ -540,6 +540,42 @@
    <tile x="0" y="0" name="fencing_01_013"/>
   </entry>
  </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="vegetation_foliage_01_002"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="vegetation_foliage_01_004"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="vegetation_ornamental_01_008"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="vegetation_ornamental_01_009"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="vegetation_foliage_01_000"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="vegetation_foliage_01_005"/>
+  </entry>
+  <entry orient="E">
+   <tile x="0" y="0" name="vegetation_foliage_01_001"/>
+  </entry>
+  <entry orient="S">
+   <tile x="0" y="0" name="vegetation_foliage_01_003"/>
+  </entry>
+ </furniture>
+ <furniture>
+  <entry orient="W">
+   <tile x="0" y="0" name="vegetation_foliage_01_013"/>
+  </entry>
+  <entry orient="N">
+   <tile x="0" y="0" name="vegetation_foliage_01_014"/>
+  </entry>
+ </furniture>
  <furniture layer="WallFurniture">
   <entry orient="W">
    <tile x="0" y="0" name="lighting_indoor_01_005"/>
@@ -566,7 +602,7 @@
  </furniture>
  <user_tiles/>
  <used_tiles>11 21 19 22 17 23 18 24 16 12 7 5 9 13 14 8 6 31 2 1 15 4 3 26 27 29 28 25</used_tiles>
- <used_furniture>0 1 2 3 4 13 5 6 14 7 8 9 10 11 12</used_furniture>
+ <used_furniture>0 1 2 3 4 16 5 6 17 7 8 9 10 11 12 13 14 15</used_furniture>
  <room Name="F1R1" InternalName="room1" Color="200 200 200" InteriorWall="21" InteriorWallTrim="0" Floor="19" GrimeFloor="0" GrimeWall="0"/>
  <room Name="F1R2" InternalName="room2" Color="128 128 128" InteriorWall="22" InteriorWallTrim="0" Floor="17" GrimeFloor="0" GrimeWall="0"/>
  <room Name="F1R3" InternalName="room3" Color="255 0 0" InteriorWall="23" InteriorWallTrim="0" Floor="18" GrimeFloor="0" GrimeWall="0"/>
@@ -634,6 +670,9 @@
   <object type="furniture" FurnitureTiles="11" orient="S" x="15" y="16"/>
   <object type="furniture" FurnitureTiles="12" orient="S" x="15" y="14"/>
   <object type="furniture" FurnitureTiles="11" orient="S" x="15" y="10"/>
+  <object type="furniture" FurnitureTiles="13" orient="N" x="6" y="10"/>
+  <object type="furniture" FurnitureTiles="14" orient="E" x="7" y="13"/>
+  <object type="furniture" FurnitureTiles="15" orient="N" x="9" y="10"/>
   <rooms>
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
